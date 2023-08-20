@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Voltaire&display=swap');
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #1F2255, #3D5EF9, #74D6FD);
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0);
+    margin: auto;
+    margin-top: 25%;
+    width: 50%;
+}
+
+h1 {
+    padding: 3%;
+}
+
+.planet_img {
+    display: block;
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+#planet-text {
+    font-family: 'Voltaire', sans-serif;
+
+    color: azure;
+    text-align: center;
+}
+
+.main_container {
+    border-radius: 15px;
+    margin-top: 2vh;
+    display: flex;
+    /* justify-content: center; */
+    grid-template-columns: 100%;
+    width: 100%;
+}
+
+.WEATHER_txt {
+    font-family: 'Voltaire', sans-serif;
+
+    color: white;
+    text-align: center;
+    height: 5vh;
+    background-color: rgb(20, 51, 84);
+    border-radius: 15px 15px 0 0;
+}
+
+.details {
+    text-align: right;
+    margin: 2vw;
+}
+
+.item {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    font-size: 30px;
+    border-radius: 15px;
+    margin: 2vw;
+}
+
+.main_container_2 {
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.information {
+    font-size: medium;
+    margin-right: 2vw;
+}
+
+.confirm_button {
+    font-family: 'Voltaire', sans-serif;
+
+    background-color: rgb(252, 163, 17);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 8%;
+    width: 96%;
+    color: white;
+    padding: 10px;
+    margin: 2vw;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button_txt {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.item-text {
+    margin: 2vw;
+}
+
+.item-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columns with equal width */
+    align-content: center;
+    justify-content: center;
+}
+
+.details-left {
+    float: left;
+}
+
+.details-right {
+    float: right;
+}

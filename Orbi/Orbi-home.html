@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="Orbi-main-Style.css">
+        <link rel="stylesheet" href="Orbi-home-style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="top-bar">
+                <div class="left-content">
+                    <div class="home-text">Home</div>
+                </div>
+                <div class="right-content">
+                    <div class="notification-button">
+                        <img src="/assest/notification.png" alt="Static Image" class="gif-image" id="gif-image">
+                    </div>
+                    <div class="profile-picture">
+                        <img src="/assest/profile.png" alt="Profile Picture">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="margin"></div>
+        <section>
+            <h2>FEATURED LOCATIONS</h2>
+            <div class="featured">
+                <div class="select-1 image" id="select-1"
+                    onclick="removeSelect()"></div>
+                <div class="start-select select-2 image" id="select-2"></div>
+                <div class="select-3 image" id="select-3" onclick=removeSelect()></div>
+            </div>
+        </section>
+        <section>
+            <h2 class="padding_left" >PROMOTIONS</h2>
+            <div class="promotions">
+                <div class="items">
+                    <div class="color-bar"><h2 class="margin_top" >25% off</h2></div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="padding_left" >THE ORBI EXPERIENCE</h2>
+            <div class="experience">
+                <div class="items Dining"><div class="color-bar"><h2 class="margin_top" >Dining</h2></div></div>
+                <div class="items Entertainment"><div class="color-bar"><h2 class="margin_top" >Entertainment</h2></div></div>
+            </div>
+            <div class="margin_bottom" ></div>
+        </section>
+        <nav class="bottom-nav">
+            <a href="Orbi-home.html" class="nav-item">
+                <img src="assest/home.png" alt="Home" class="nav-icon">
+                <span class="nav-text">Home</span>
+            </a>
+            <a href="Orbi-booking.html" class="nav-item">
+                <img src="assest/booking.png" alt="Booking" class="nav-icon">
+                <span class="nav-text">Booking</span>
+            </a>
+            <a href="#" class="nav-item">
+                <img src="assest/profile.png" alt="Profile" class="nav-icon">
+                <span class="nav-text">Profile</span>
+            </a>
+        </nav>
+        <script src="Orbi-home.js"></script>
+        <script src="Orbi-main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+.planet-select {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+    gap: 10px;
+    margin-left: 5px;
+  }
+
+.iteams {
+  width: 45vw;
+  height: 30vh;
+  box-shadow: 10px;
+  padding: 2px black;
+  background-color: wheat;
+  border-radius: 15px;
+  border: 1px solid #000;
+  background: linear-gradient(180deg, rgba(153, 144, 67, 0.00) 0%, rgba(255, 255, 255, 0.00) 0.01%, #000 100%);
+}
+
+.iteams img{
+    margin: 5px;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.iteams h3{
+    text-align: center;
+    color: #fff;
+}
+
+
+
